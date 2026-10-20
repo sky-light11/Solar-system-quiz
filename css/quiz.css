@@ -1,0 +1,42 @@
+body {
+  background: url("../img/Universe.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+#heading1 {
+  background-color: rgb(209, 216, 255);
+  max-width: 400px;
+  border: 2px solid rgb(209, 216, 255);
+  padding: 5px 20px;
+  margin: auto;
+  border-radius: 50px;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+button {
+  padding-inline: 20px;
+  cursor: pointer;
+}
+
+input,
+button {
+  font: inherit;
+  border-width: 3px;
+}
+
+#sentence {
+  font-size: larger;
+}
+
+.main {
+  background-color: rgba(58, 58, 58, 0.4);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  border: 2px solid rgb(58, 58, 58, 0.4);
+  padding: 20px 40px;
+  margin: auto;
+  border-radius: 25px;
+}

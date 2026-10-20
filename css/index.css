@@ -1,0 +1,25 @@
+body {
+  background: url("../img/Solar system.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 760px;
+  font-size: x-large;
+}
+
+#heading {
+  text-align: center;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+#quote {
+  text-align: center;
+  margin-left: 280px;
+  margin-top: 30px;
+  font-size: large;
+}
