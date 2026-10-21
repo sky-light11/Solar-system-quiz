@@ -114,11 +114,11 @@ function check() {
   if (percent == 100) {
     document.getElementById("sentence").innerHTML =
       "Wow, you got every question correct!";
-  } else if (percent >= 75) {
+  } else if (percent >= 62.5) {
     document.getElementById("sentence").innerHTML = "Great Job!";
-  } else if (persent >= 50) {
+  } else if (percent == 50) {
     document.getElementById("sentence").innerHTML = "You got half correct!";
-  } else if (persent >= 25) {
+  } else if (percent >= 25) {
     document.getElementById("sentence").innerHTML = "This is a bit difficult.";
   } else {
     document.getElementById("sentence").innerHTML = "Please Try Again";
